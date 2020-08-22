@@ -1,0 +1,32 @@
+.add-tasks-error {
+    color: white;
+    font-style: italic;
+    padding: 0 1.6rem;
+    margin: 1.6rem 0 0 0;
+}
+
+.add-tasks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.6rem;
+}
+
+.add-task__input {
+    background: #333745;
+    border: none;
+    border-bottom: .3rem solid darken(#333745, 10%);
+    color: #a5afd7;
+    flex-grow: 1;
+    margin-left: 0;
+    padding: 1.2rem;
+}
+
+.butt {
+    background: blue;
+    border-radius: 1rem;
+    border-bottom: .3rem solid darken(blue,10%);
+    color:white;
+    font-weight:500;
+    padding:1.2rem;
+    margin-left: 1rem;
+}
